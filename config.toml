@@ -1,0 +1,40 @@
+[window]
+# Window dimensions
+width = 1920
+height = 1080
+
+[streamsource]
+apiToken = ''
+
+[twitch]
+updateInterval = 10
+clientId = ''
+oauthToken = ''
+
+[dlive]
+updateInterval = 10
+
+[facebook]
+updateInterval = 10
+
+[instagram]
+updateInterval = 10
+
+[periscope]
+updateInterval = 10
+
+[youtube]
+updateInterval = 10
+
+[data]
+ignorePatterns = [
+    '''/^(?:www\.)?twitch\.tv\/p\//i''',
+    '''/^(?:www\.)?.instagram\.com\/p\//i''',
+    '''/^(?:www\.)?facebook\.com\/photo/i''',
+    '''/^(?:www\.)?facebook\.com\/profile/i''',
+    '''/^(?:www\.)?facebook\.com\/groups\//i''',
+    '''/twitch\.tv\/subs\//i''',
+    '''/twitch\.tv\/.*\/clip\//i''',
+    '''/twitch\.tv\/.*\/v\//i''',
+    '''/twitch\.tv\/videos\//i''',
+]
